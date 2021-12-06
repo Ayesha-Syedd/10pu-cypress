@@ -8,7 +8,7 @@ describe('Test Login Functionality', () =>{
     
     })
       
-    it.skip('should login to the website', () => {
+    it('should login to the website', () => {
     
         cy.fixture('example').then(function (data){
     
@@ -18,11 +18,8 @@ describe('Test Login Functionality', () =>{
         
             cy.get('h1').contains('Dashboard')
         
-            cy.contains('Invalid credentials').should('exist')
-        
             cy.url().should('eq', 'https://opensource-demo.orangehrmlive.com/index.php/dashboard')
         
-            
     
         })
         
