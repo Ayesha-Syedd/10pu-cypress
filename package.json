@@ -1,0 +1,16 @@
+{
+  "name": "10pu-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress chrome": "cypress run --browser=chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^7.5.0",
+    "mochawesome": "^6.2.2"
+  }
+}

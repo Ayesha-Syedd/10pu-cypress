@@ -1,0 +1,130 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 0,
+    "pending": 1,
+    "failures": 1,
+    "start": "2021-06-21T22:48:54.271Z",
+    "end": "2021-06-21T22:49:06.995Z",
+    "duration": 12724,
+    "testsRegistered": 2,
+    "passPercent": 0,
+    "pendingPercent": 50,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "882c1f87-c98b-4cff-a50f-ee39a941b9b8",
+      "title": "",
+      "fullFile": "cypress/integration/test.spec.js",
+      "file": "cypress/integration/test.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "43c7173e-196f-4b2a-9127-1753db7f3f2a",
+          "title": "Test Login Functionality",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should login to the website",
+              "fullTitle": "Test Login Functionality should login to the website",
+              "timedOut": null,
+              "duration": 12468,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Invalid credentials' but never did.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Invalid credentials' but never did.\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\test.spec.js:109:42)",
+                "diff": null
+              },
+              "uuid": "6305d426-449b-49d9-8629-328dee4123fa",
+              "parentUUID": "43c7173e-196f-4b2a-9127-1753db7f3f2a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should not login to the website",
+              "fullTitle": "Test Login Functionality should not login to the website",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "6e7afd35-fd87-48e5-9e8c-574f8c899ade",
+              "parentUUID": "43c7173e-196f-4b2a-9127-1753db7f3f2a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "6305d426-449b-49d9-8629-328dee4123fa"
+          ],
+          "pending": [
+            "6e7afd35-fd87-48e5-9e8c-574f8c899ade"
+          ],
+          "skipped": [],
+          "duration": 12468,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "10pu-cypress-report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "code": false,
+        "overwrite": false,
+        "reportFilename": "10pu-cypress-report",
+        "autoOpen": true,
+        "charts": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
